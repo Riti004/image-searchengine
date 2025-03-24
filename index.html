@@ -5,16 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Search Engine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 <body>
-    <h1>image search engine</h1>
 
-    <form id="search-form">
-        <input type="text" id="search-box" placeholder="Search anything here....">
-        <button>Search</button>
-    </form>
-    <div id="search-result"></div>
-    <button id="show-more-btn">Show more</button>
+    <!-- HEADER -->
+    <header>
+        <h1>🔍 Image Search Engine</h1>
+        <p>Discover high-quality images with a single search</p>
+    </header>
+
+    <div class="container">
+        <form id="search-form">
+            <input type="text" id="search-box" placeholder="Search images..." required>
+            <button id="search-btn">Search</button>
+        </form>
+
+        <div class="loader" id="loader"></div>
+
+        <div id="search-result"></div>
+        <button id="show-more-btn">Show More</button>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2025 Image Search Engine | Made with ❤️ by Ritika</p>
+            <div class="social-icons">
+                
+                <a href="https://www.instagram.com/_itiriti/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Riti004" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ritika-adak-317426261/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    
 
     <script src="main.js"></script>
 </body>
